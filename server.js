@@ -7,8 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 
 // Sample quotes as objects
-const quotes = [
-    {
+const quotes = [{
     "author": "Jim Rohn",
     "quote": "Success is nothing more than a few simple disciplines, practiced every day; while failure is simply a few errors in judgment, repeated every day. It is the accumulative weight of our disciplines and our judgments that leads us to either fortune or failure."
   },
@@ -493,10 +492,6 @@ const quotes = [
     "quote": "Either you get busy living or you get busy dying."
   },
   {
-    "author": "Earl Nightingale",
-    "quote": "Whatever we plant in our minds and nourish with repetition and emotion will one day become reality."
-  },
-  {
     "author": "Zig Ziglar",
     "quote": "If you learn from defeat, you haven't really been defeated."
   },
@@ -599,6 +594,454 @@ const quotes = [
   {
     "author": "Brian Tracy",
     "quote": "Set peace of mind as your highest goal, and organize your life around it."
+  },
+    {
+    "author": "Unknown",
+    "quote": "The best time to plant a tree was 20 years ago. The second best time is now."
+  },
+  {
+    "author": "Seneca",
+    "quote": "Difficulties strengthen the mind, as labor does the body."
+  },
+  {
+    "author": "Marcus Aurelius",
+    "quote": "Waste no more time arguing about what a good man should be. Be one."
+  },
+  {
+    "author": "Epictetus",
+    "quote": "It's not what happens to you, but how you react to it that matters."
+  },
+  {
+    "author": "Benjamin Franklin",
+    "quote": "Lost time is never found again."
+  },
+  {
+    "author": "Thomas Sowell",
+    "quote": "Mistakes can be corrected by those who pay attention... but geniuses blunder in grand style because they don't believe they are making mistakes."
+  },
+  {
+    "author": "Theodore Roosevelt",
+    "quote": "Believe you can and you're halfway there."
+  },
+  {
+    "author": "Winston Churchill",
+    "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts."
+  },
+  {
+    "author": "Henry Ford",
+    "quote": "Whether you think you can, or you think you can't – you're right."
+  },
+  {
+    "author": "Albert Einstein",
+    "quote": "The definition of insanity is doing the same thing over and over again and expecting different results."
+  },
+  {
+    "author": "Maya Angelou",
+    "quote": "You may not control all the events that happen to you, but you can decide not to be reduced by them."
+  },
+  {
+    "author": "Eleanor Roosevelt",
+    "quote": "Do one thing every day that scares you."
+  },
+  {
+    "author": "Ralph Waldo Emerson",
+    "quote": "What lies behind us and what lies before us are tiny matters compared to what lies within us."
+  },
+  {
+    "author": "Confucius",
+    "quote": "Our greatest glory is not in never failing, but in rising up every time we fail."
+  },
+  {
+    "author": "Lao Tzu",
+    "quote": "The journey of a thousand miles begins with a single step."
+  },
+  {
+    "author": "Bruce Lee",
+    "quote": "The successful warrior is the average man, with laser-like focus."
+  },
+  {
+    "author": "Walt Disney",
+    "quote": "All our dreams can come true, if we have the courage to pursue them."
+  },
+  {
+    "author": "Oprah Winfrey",
+    "quote": "The biggest adventure you can ever take is to live the life of your dreams."
+  },
+  {
+    "author": "Steve Jobs",
+    "quote": "The only way to do great work is to love what you do."
+  },
+  {
+    "author": "Mark Twain",
+    "quote": "The secret of getting ahead is getting started."
+  },
+  {
+    "author": "Plato",
+    "quote": "Human behavior flows from three main sources: desire, emotion, and knowledge."
+  },
+  {
+    "author": "Aristotle",
+    "quote": "Well begun is half done."
+  },
+  {
+    "author": "Socrates",
+    "quote": "The only true wisdom is in knowing you know nothing."
+  },
+  {
+    "author": "Buddha",
+    "quote": "What you think, you become. What you feel, you attract. What you imagine, you create."
+  },
+  {
+    "author": "Rumi",
+    "quote": "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself."
+  },
+  {
+    "author": "Viktor Frankl",
+    "quote": "Everything can be taken from a man but one thing: the last of the human freedoms—to choose one’s attitude in any given set of circumstances, to choose one’s own way."
+  },
+  {
+    "author": "Carl Jung",
+    "quote": "Until you make the unconscious conscious, it will direct your life and you will call it fate."
+  },
+  {
+    "author": "Abraham Lincoln",
+    "quote": "The best way to predict your future is to create it."
+  },
+  {
+    "author": "Leonardo da Vinci",
+    "quote": "It had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. They went out and happened to things."
+  },
+  {
+    "author": "Isaac Newton",
+    "quote": "To every action there is always opposed an equal reaction."
+  },
+  {
+    "author": "Marie Curie",
+    "quote": "Nothing in life is to be feared, it is only to be understood."
+  },
+  {
+    "author": "Thomas Edison",
+    "quote": "I have not failed. I've just found 10,000 ways that won't work."
+  },
+  {
+    "author": "Henry David Thoreau",
+    "quote": "Go confidently in the direction of your dreams! Live the life you've imagined."
+  },
+  {
+    "author": "Mahatma Gandhi",
+    "quote": "Be the change that you wish to see in the world."
+  },
+  {
+    "author": "Martin Luther King Jr.",
+    "quote": "Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that."
+  },
+  {
+    "author": "Nelson Mandela",
+    "quote": "It always seems impossible until it's done."
+  },
+  {
+    "author": "Mother Teresa",
+    "quote": "If you judge people, you have no time to love them."
+  },
+  {
+    "author": "Dalai Lama",
+    "quote": "The purpose of our lives is to be happy."
+  },
+  {
+    "author": "Eleanor Roosevelt",
+    "quote": "The future belongs to those who believe in the beauty of their dreams."
+  },
+  {
+    "author": "Helen Keller",
+    "quote": "The only thing worse than being blind is having sight but no vision."
+  },
+  {
+    "author": "Booker T. Washington",
+    "quote": "Success is to be measured not so much by the position that one has reached in life as by the obstacles which one has overcome while trying to succeed."
+  },
+  {
+    "author": "Coco Chanel",
+    "quote": "In order to be irreplaceable one must always be different."
+  },
+  {
+    "author": "Audrey Hepburn",
+    "quote": "Nothing is impossible, the word itself says 'I'm possible'!"
+  },
+  {
+    "author": "Muhammad Ali",
+    "quote": "I am the greatest, I said that even before I knew I was."
+  },
+     {
+    "author": "Bill Gates",
+    "quote": "Patience is a key element of success."
+  },
+  {
+    "author": "Warren Buffett",
+    "quote": "Rule No. 1: Never lose money. Rule No. 2: Never forget rule No. 1."
+  },
+  {
+    "author": "Oprah Winfrey",
+    "quote": "What I know for sure is that what you give comes back to you."
+  },
+  {
+    "author": "Tony Robbins",
+    "quote": "The quality of your life is in direct proportion to the quality of your relationships."
+  },
+  {
+    "author": "Les Brown",
+    "quote": "The graveyard is the richest place on earth, because it is here that you will find all the hopes and dreams that were never fulfilled, the books that were never written, the songs that were never sung, the inventions that were never shared, the cures that were never discovered, all because someone was too afraid to take that first step, keep with the problem, or determined to carry out their dream."
+  },
+  {
+    "author": "Zig Ziglar",
+    "quote": "If you go out looking for friends, you'll find they are very scarce. If you go out to be a friend, you'll find them everywhere."
+  },
+  {
+    "author": "Denis Waitley",
+    "quote": "We are all self-made, but only the successful will admit it."
+  },
+  {
+    "author": "Napoleon Hill",
+    "quote": "Think and grow rich."
+  },
+  {
+    "author": "Earl Nightingale",
+    "quote": "One hour a day of study will put you at the top of your field in three years. Three hours a day will put you there in one year."
+  },
+  {
+    "author": "Jim Rohn",
+    "quote": "Don't let your learning lead to knowledge. Let your learning lead to action."
+  },
+  {
+    "author": "Brian Tracy",
+    "quote": "Goals are the fuel in the furnace of achievement."
+  },
+  {
+    "author": "Og Mandino",
+    "quote": "I will act now. I will act now. I will act now. Henceforth, I will repeat these words each hour, each day, each week, each month, each year, and forever."
+  },
+  {
+    "author": "Unknown",
+    "quote": "The road to success is always under construction."
+  },
+  {
+    "author": "Seneca",
+    "quote": "Every new beginning comes from some other beginning's end."
+  },
+  {
+    "author": "Marcus Aurelius",
+    "quote": "You have power over your mind, not outside events. Realize this, and you will find strength."
+  },
+  {
+    "author": "Epictetus",
+    "quote": "First say to yourself what you would be; and then do what you have to do."
+  },
+  {
+    "author": "Benjamin Franklin",
+    "quote": "By failing to prepare, you are preparing to fail."
+  },
+  {
+    "author": "Thomas Sowell",
+    "quote": "It is usually futile to try to talk facts and analysis to people who are enjoying a sense of moral superiority in their ignorance."
+  },
+  {
+    "author": "Theodore Roosevelt",
+    "quote": "Do what you can, with what you have, where you are."
+  },
+  {
+    "author": "Winston Churchill",
+    "quote": "Never give in--never, never, never, never, in nothing great or small, large or petty, never give in except to convictions of honour and good sense."
+  },
+  {
+    "author": "Henry Ford",
+    "quote": "Coming together is a beginning; keeping together is progress; working together is success."
+  },
+  {
+    "author": "Albert Einstein",
+    "quote": "Strive not to be a success, but rather to be of value."
+  },
+  {
+    "author": "Maya Angelou",
+    "quote": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel."
+  },
+  {
+    "author": "Eleanor Roosevelt",
+    "quote": "No one can make you feel inferior without your consent."
+  },
+  {
+    "author": "Ralph Waldo Emerson",
+    "quote": "The only person you are destined to become is the person you decide to be."
+  },
+  {
+    "author": "Confucius",
+    "quote": "The man who asks a question is a fool for a minute, the man who does not ask is a fool for life."
+  },
+  {
+    "author": "Lao Tzu",
+    "quote": "Nature does not hurry, yet everything is accomplished."
+  },
+  {
+    "author": "Bruce Lee",
+    "quote": "Adapt what is useful, reject what is useless, and add what is specifically your own."
+  },
+  {
+    "author": "Walt Disney",
+    "quote": "The way to get started is to quit talking and begin doing."
+  },
+  {
+    "author": "Oprah Winfrey",
+    "quote": "Follow your instincts. That's where true wisdom manifests itself."
+  },
+  {
+    "author": "Steve Jobs",
+    "quote": "Your time is limited, so don't waste it living someone else's life."
+  },
+  {
+    "author": "Mark Twain",
+    "quote": "Twenty years from now you will be more disappointed by the things that you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover."
+  },
+  {
+    "author": "Plato",
+    "quote": "Knowledge is the food of the soul."
+  },
+  {
+    "author": "Aristotle",
+    "quote": "The ultimate value of life depends upon awareness and the power of contemplation rather than upon mere survival."
+  },
+  {
+    "author": "Socrates",
+    "quote": "Beware the barrenness of a busy life."
+  },
+  {
+    "author": "Buddha",
+    "quote": "Peace comes from within. Do not seek it without."
+  },
+  {
+    "author": "Rumi",
+    "quote": "Don't be satisfied with stories, how things have gone with others. Unfold your own myth."
+  },
+  {
+    "author": "Viktor Frankl",
+    "quote": "When we are no longer able to change a situation, we are challenged to change ourselves."
+  },
+  {
+    "author": "Carl Jung",
+    "quote": "Who looks outside, dreams; who looks inside, awakes."
+  },
+  {
+    "author": "Abraham Lincoln",
+    "quote": "Give me six hours to chop down a tree and I will spend the first four sharpening the axe."
+  },
+  {
+    "author": "Leonardo da Vinci",
+    "quote": "Iron rusts from disuse, stagnant water loses its purity... so does inaction sap the vigor of the mind."
+  },
+  {
+    "author": "Isaac Newton",
+    "quote": "If I have seen further than others, it is by standing upon the shoulders of giants."
+  },
+  {
+    "author": "Marie Curie",
+    "quote": "Be less curious about people and more curious about ideas."
+  },
+  {
+    "author": "Thomas Edison",
+    "quote": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time."
+  },
+  {
+    "author": "Henry David Thoreau",
+    "quote": "If one advances confidently in the direction of his dreams, and endeavors to live the life which he has imagined, he will meet with a success unexpected in common hours."
+  },
+  {
+    "author": "Mahatma Gandhi",
+    "quote": "An eye for an eye will only make the whole world blind."
+  },
+  {
+    "author": "Martin Luther King Jr.",
+    "quote": "The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy."
+  },
+  {
+    "author": "Nelson Mandela",
+    "quote": "Education is the most powerful weapon which you can use to change the world."
+  },
+  {
+    "author": "Mother Teresa",
+    "quote": "Not all of us can do great things. But we can do small things with great love."
+  },
+  {
+    "author": "Dalai Lama",
+    "quote": "Happiness is not something ready made. It comes from your own actions."
+  },
+  {
+    "author": "Eleanor Roosevelt",
+    "quote": "With the new day comes new strength and new thoughts."
+  },
+  {
+    "author": "Helen Keller",
+    "quote": "Life is either a daring adventure or nothing at all."
+  },
+  {
+    "author": "Booker T. Washington",
+    "quote": "Character, not circumstances, makes the man."
+  },
+  {
+    "author": "Coco Chanel",
+    "quote": "Success is most often achieved by those who don't know that failure is inevitable."
+  },
+  {
+    "author": "Audrey Hepburn",
+    "quote": "The most important thing is to enjoy your life – to be happy – it's all that matters."
+  },
+  {
+    "author": "Muhammad Ali",
+    "quote": "Impossible is just a big word thrown around by small men who find it easier to live in the world they've been given than to explore the power they have to change it. Impossible is not a fact. It's an opinion. Impossible is potential. Impossible is temporary. Impossible is nothing."
+  },
+     {
+    "author": "Bill Gates",
+    "quote": "Success is a lousy teacher. It seduces smart people into thinking they can't lose."
+  },
+  {
+    "author": "Warren Buffett",
+    "quote": "It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price."
+  },
+  {
+    "author": "Oprah Winfrey",
+    "quote": "You get in life what you have the courage to ask for."
+  },
+  {
+    "author": "Tony Robbins",
+    "quote": "It's your decisions, not your conditions, that determine your destiny."
+  },
+  {
+    "author": "Les Brown",
+    "quote": "If you are not willing to risk the unusual, you will have to settle for the ordinary."
+  },
+  {
+    "author": "Zig Ziglar",
+    "quote": "What you get by achieving your goals is not as important as what you become by achieving your goals."
+  },
+  {
+    "author": "Denis Waitley",
+    "quote": "The real voyage of discovery consists not in seeking new landscapes, but in having new eyes."
+  },
+  {
+    "author": "Napoleon Hill",
+    "quote": "Great achievements are born of great sacrifice and are never the result of selfishness."
+  },
+  {
+    "author": "Earl Nightingale",
+    "quote": "We can let circumstances rule us, or we can take charge and rule our lives from within."
+  },
+  {
+    "author": "Jim Rohn",
+    "quote": "The ultimate reason for setting goals is to entice you to become the person it takes to achieve them."
+  },
+  {
+    "author": "Brian Tracy",
+    "quote": "Every minute you spend in planning saves 10 minutes in execution; this gives you a 1,000% return on energy!"
+  },
+  {
+    "author": "Og Mandino",
+    "quote": "The greatest miracle is not walking on water, but walking on earth right now."
   }
 ];
 
